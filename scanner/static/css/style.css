@@ -1,0 +1,95 @@
+
+body
+{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: #262626;
+}
+
+section
+{
+background: #fff;
+margin: 150px 0;
+}
+
+.imageBox
+{
+position: relative;
+margin: 40px auto:
+border-radius: 4px;
+#overflow: hidden;
+max-width: 300px
+}
+
+.imageBox h3
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: -24px;
+transform: translateY(-50%);
+text-align: center;
+width: 100%;
+font-weight: bold;
+color: #bbb;
+text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+transition: .5s;
+}
+.imageBox:hover h3
+{
+top: 50%;
+transform: translateY(-50%);
+}
+.imageBox ul
+{
+position: absolute;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+width: 100%;
+display: flex;
+background: rgba(0,0,0,.2);
+transform: translateY(20px);
+transition: 0.5s;
+}
+.imageBox:hover ul
+{
+transform: translateY(-60px);
+}
+.imageBox ul li
+{
+list-style: none;
+width: 20%;
+box-sizing: border-box;
+
+}
+.imageBox ul li a
+{
+color: #fff;
+font-size: 20px;
+margin: 10px;
+display: inline-block;
+}
+
+.imageBox ul li:hover:nth-child(1)
+{
+background: #3b5999;
+}
+.imageBox ul li:hover:nth-child(2)
+{
+background: #55acee;
+}
+.imageBox ul li:hover:nth-child(3)
+{
+background: #dd4b39;
+}
+.imageBox ul li:hover:nth-child(4)
+{
+background: #007bb5;
+}
+.imageBox ul li:hover:nth-child(5)
+{
+background: #4dc247;
+}

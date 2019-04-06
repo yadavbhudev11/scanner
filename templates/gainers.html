@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/style1.css' %}">
+<h2>Top Gainers</h2>
+<table>
+
+<tr>
+<th>Scrip</th>
+<th>Open</th>
+<th>LTP</th>
+<th>Change</th>
+</tr>
+
+{%for x1 in gainers %}
+<tr>
+{%for y in x1 %}
+<td>{{y}}</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
